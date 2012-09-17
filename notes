@@ -1,0 +1,4 @@
+git diff
+	show the differences between staged and working
+git diff --staged | --cached
+	show the differences between staged and latest
