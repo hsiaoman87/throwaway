@@ -1,4 +1,12 @@
 git diff
-	show the differences between staged and working
+    show the differences between staged and working
 git diff --staged | --cached
-	show the differences between staged and latest
+    show the differences between staged and latest
+git rm [filename]
+    same as tf delete
+git rm --cached [filename]
+    remove file from staging
+git mv file_from file_to
+    same as tf rename
+git log
+    same as tf history
