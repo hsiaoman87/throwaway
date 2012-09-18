@@ -1,0 +1,27 @@
+git diff
+    show the differences between staged and working
+git diff --cached | --staged
+    show the differences between staged and latest
+git rm <file>
+    same as tf delete
+git rm --cached <file>
+    remove file but keep it on disk (useful when a file is accidentally added)
+git mv file_from file_to
+    same as tf rename
+git log
+    same as tf history
+git commit --amend
+    redo last commit with current staging
+git reset HEAD <file>
+    unstage a file
+git checkout -- <file>
+    undo edits in working directory
+
+git remote [-v]
+    display remotes (optionally with urls)
+git remote add <shortname> <url>
+    add a remote
+git fetch <remote-name>
+    fetch repository, does not merge
+git pull <remote-name> <branch>
+    fetch and merge
