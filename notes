@@ -16,3 +16,12 @@ git reset HEAD <file>
     unstage a file
 git checkout -- <file>
     undo edits in working directory
+
+git remote [-v]
+    display remotes (optionally with urls)
+git remote add <shortname> <url>
+    add a remote
+git fetch <remote-name>
+    fetch repository, does not merge
+git pull <remote-name> <branch>
+    fetch and merge
