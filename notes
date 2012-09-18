@@ -34,3 +34,4 @@ git checkout -b <branch-name>
     create and switch to branch
 git merge <branch-name>
     bring current branch pointer to target branch pointer (aka fast forward)
+    OR create a new snapshot resulting from 3-way merge (aka recursive)
