@@ -37,3 +37,7 @@ git merge <branch-name>
     OR create a new snapshot resulting from 3-way merge (aka recursive)
 git rebase <branch-name>
     applies current branch onto branch-name
+
+git stash save <stash-name>
+    same as shelve
+git stash apply <stash>
