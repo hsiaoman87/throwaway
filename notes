@@ -23,5 +23,12 @@ git remote add <shortname> <url>
     add a remote
 git fetch <remote-name>
     fetch repository, does not merge
-git pull <remote-name> <branch>
+git pull <remote-name> <branch-name>
     fetch and merge
+
+git branch <branch-name>
+    create a branch
+git checkout <branch-name>
+    switch to branch
+git checkout -b <branch-name>
+    create and switch to branch
