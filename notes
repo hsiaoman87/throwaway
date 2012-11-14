@@ -40,6 +40,9 @@ git rebase <branch-name>
 git push <remote-name> <local-branch>:<remote-branch>
     remove remote branch
 
-git stash save <stash-name>
+git stash [save <stash-name>]
     same as shelve
 git stash apply <stash>
+    same as unshelve
+git stash pop
+    unshelve latest shelve
